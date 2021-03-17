@@ -1,0 +1,25 @@
+{
+    "name": "terpomoj/args-parser",
+    "description": "Arguments parser.",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "BinotaLIU",
+            "email": "binota@binota.org"
+        }
+    ],
+    "require": {
+      "php": ">=8.0"
+    },
+    "require-dev": {
+        "spatie/ray": "^1.21",
+        "pestphp/pest": "^1.0",
+        "pestphp/pest-plugin-expectations": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Terpomoj\\ArgsParser\\": "src/"
+        }
+    }
+}
